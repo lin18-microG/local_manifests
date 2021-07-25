@@ -6,8 +6,8 @@
   <!-- Static OTA updater resource -->
   <!--project path="OTA" name="lin18-microG/OTA" /-->
 
-  <!-- GrapheneOS' hardened_malloc (forked from GlassROM) -->
-  <!--project path="external/hardened_malloc" name="lin18-microG/hardened_malloc" revision="master" /-->
+  <!-- GrapheneOS' hardened_malloc -->
+  <project path="external/hardened_malloc" name="lin18-microG/hardened_malloc" revision="main" />
 
   <!-- microG Build, prebuilt apks -->
   <project path="prebuilts/prebuiltapks" name="MSe1969/android_prebuilts_prebuiltapks" revision="master" />
@@ -27,17 +27,18 @@
   <project path="z_patches/croot-scripts" name="lin18-microG/croot-scripts" revision="master" />
 
   <!-- Replaced/enhanced Repositories -->
-  <!--
+  <remove-project name="LineageOS/android_art" />
+  <project path="art" name="lin18-microG/android_art" groups="pdk" />
   <remove-project name="LineageOS/android_bionic" />
-  <project path="bionic" name="lin18-microG/android_bionic" /> -->
+  <project path="bionic" name="lin18-microG/android_bionic" groups="pdk" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="lin18-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="lin18-microG/android_frameworks_native" groups="pdk" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project path="frameworks/opt/net/wifi" name="lin18-microG/android_frameworks_opt_net_wifi" groups="pdk" />
-  <!--remove-project name="LineageOS/android_libcore" />
-  <project path="libcore" name="lin17-microG/android_libcore" revision="lin-17.1-microG" />
+  <remove-project name="platform/libcore" />
+  <project path="libcore" name="lin18-microG/android_libcore" groups="pdk" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Bluetooth" name="lin17-microG/android_packages_apps_Bluetooth" revision="lin-17.1-microG" /-->
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
