@@ -40,13 +40,13 @@
   <remove-project name="platform/libcore" />
   <project path="libcore" name="lin18-microG/android_libcore" groups="pdk" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/Bluetooth" name="lin17-microG/android_packages_apps_Bluetooth" revision="lin-17.1-microG" /-->
+  <project path="packages/apps/Bluetooth" name="lin18-microG/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
-  <project path="packages/apps/Camera2" name="lin18-microG/android_packages_apps_Camera2" />
+  <project path="packages/apps/Camera2" name="lin18-microG/android_packages_apps_Camera2" groups="pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/LineageParts" name="lin18-microG/android_packages_apps_LineageParts" />
-  <!--remove-project name="LineageOS/android_packages_apps_Nfc" />
-  <project path="packages/apps/Nfc" name="lin17-microG/android_packages_apps_Nfc" revision="lin-17.1-microG" /-->
+  <remove-project name="LineageOS/android_packages_apps_Nfc" />
+  <project path="packages/apps/Nfc" name="lin18-microG/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PermissionController" name="lin18-microG/android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
