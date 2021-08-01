@@ -23,7 +23,7 @@
   <project path="packages/overlays/CaptivePortal204" name="MSe1969/android_packages_overlays_CaptivePortal204" revision="master" />
 
   <!-- Patches & root-scripts Directory -->
-  <project path="z_patches" name="lin18-microG/z_patches" revision="lin18.1-microG" />
+  <project path="z_patches" name="lin18-microG/z_patches" revision="lin18.1-hmalloc" />
   <project path="z_patches/croot-scripts" name="lin18-microG/croot-scripts" revision="master" />
 
   <!-- Replaced/enhanced Repositories -->
@@ -40,9 +40,9 @@
   <remove-project name="LineageOS/android_art" />
   <project path="art" name="lin18-microG/android_art" groups="pdk" revision="lin18.1-microG" />
   <remove-project name="LineageOS/android_bionic" />
-  <project path="bionic" name="lin18-microG/android_bionic" groups="pdk" />
+  <project path="bionic" name="lin18-microG/android_bionic" groups="pdk" revision="lin-18.1-hmalloc" />
   <remove-project name="LineageOS/android_build_soong" />
-  <project path="build/soong" name="lin18-microG/android_build_soong" groups="pdk,tradefed" revision="lin18.1-microG" >
+  <project path="build/soong" name="lin18-microG/android_build_soong" groups="pdk,tradefed" revision="lin18.1-hmalloc" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -71,9 +71,9 @@
   <remove-project name="platform/packages/modules/NetworkStack" />
   <project path="packages/modules/NetworkStack" name="lin18-microG/android_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" revision="lin18.1-microG" />
   <remove-project name="LineageOS/android_system_core" />
-  <project path="system/core" name="lin18-microG/android_system_core" groups="pdk" revision="lin18.1-microG" />
+  <project path="system/core" name="lin18-microG/android_system_core" groups="pdk" revision="lin18.1-hmalloc" />
   <remove-project name="LineageOS/android_system_sepolicy" />
-  <project path="system/sepolicy" name="lin18-microG/android_system_sepolicy" groups="pdk" revision="lin18.1-microG" />
+  <project path="system/sepolicy" name="lin18-microG/android_system_sepolicy" groups="pdk" revision="lin18.1-hmalloc" />
   <remove-project name="LineageOS/android_vendor_lineage" />
   <project path="vendor/lineage" name="lin18-microG/android_vendor_lineage" revision="lin18.1-microG" />
 
