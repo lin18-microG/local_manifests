@@ -46,6 +46,8 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+  <project name="lin18-microG/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <project path="frameworks/base" name="lin18-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lin18.1-microG" />
   <remove-project name="LineageOS/android_frameworks_native" />
