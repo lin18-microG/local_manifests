@@ -54,7 +54,7 @@
   <project path="frameworks/native" name="lin18-microG/android_frameworks_native" groups="pdk" revision="lin-18.1-microG" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project path="frameworks/opt/net/wifi" name="lin18-microG/android_frameworks_opt_net_wifi" groups="pdk" revision="lin-18.1-microG" />
-  <remove-project name="platform/libcore" />
+  <remove-project name="LineageOS/android_libcore" />
   <project path="libcore" name="lin18-microG/android_libcore" groups="pdk" revision="lin-18.1-microG" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Bluetooth" name="lin18-microG/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" revision="lin-18.1-microG" />
