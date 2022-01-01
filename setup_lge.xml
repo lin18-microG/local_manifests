@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_lge_h850" path="device/lge/h850" remote="github" />
+  <project name="LineageOS/android_device_lge_g5-common" path="device/lge/g5-common" remote="github" />
+  <project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" />
+  <project name="LineageOS/android_device_lge_common" path="device/lge/common" remote="github" />
+  <project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
+
+ <!--  Additional needed Sony dependency, which is specified in the setup_common.xml file
+       Uncomment the below line, if you don't use the setup_common.xml file
+
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" />
+ -->
+</manifest>
