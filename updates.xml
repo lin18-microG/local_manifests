@@ -49,13 +49,13 @@
   <remove-project name="LineageOS/android_device_lineage_sepolicy" />
   <project name="lin18-microG/android_device_lineage_sepolicy" path="device/lineage/sepolicy" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="lin18-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lin-18.1-microG" />
+  <project path="frameworks/base" name="lin18-microG/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="lin-18.1-GmsCompat" />
   <remove-project name="LineageOS/android_frameworks_native" />
   <project path="frameworks/native" name="lin18-microG/android_frameworks_native" groups="pdk" revision="lin-18.1-microG" />
   <remove-project name="LineageOS/android_frameworks_opt_net_wifi" />
   <project path="frameworks/opt/net/wifi" name="lin18-microG/android_frameworks_opt_net_wifi" groups="pdk" revision="lin-18.1-microG" />
   <remove-project name="LineageOS/android_libcore" />
-  <project path="libcore" name="lin18-microG/android_libcore" groups="pdk" revision="lin-18.1-microG" />
+  <project path="libcore" name="lin18-microG/android_libcore" groups="pdk" revision="lin-18.1-GmsCompat" />
   <remove-project name="LineageOS/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Bluetooth" name="lin18-microG/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" revision="lin-18.1-microG" />
   <remove-project name="LineageOS/android_packages_apps_Camera2" />
@@ -75,7 +75,7 @@
   <remove-project name="LineageOS/android_system_sepolicy" />
   <project path="system/sepolicy" name="lin18-microG/android_system_sepolicy" groups="pdk" revision="lin-18.1-hmalloc" />
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="lin18-microG/android_vendor_lineage" revision="lin-18.1-microG" />
+  <project path="vendor/lineage" name="lin18-microG/android_vendor_lineage" revision="lin-18.1-GmsCompat" />
 
 </manifest>
 
