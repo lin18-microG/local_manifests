@@ -62,6 +62,8 @@ cp z_patches/croot-scripts/* .
 ./switch_microG.sh default
 ./switch_microG.sh microG
 ./switch_microG.sh hmalloc
+./switch_microG.sh GmsCompat
+./switch_microG.sh GmsClm
 ./switch_microG.sh reference
 ```
 
