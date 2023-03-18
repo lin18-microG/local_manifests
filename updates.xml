@@ -12,10 +12,11 @@
   <!-- microG Build, prebuilt apks -->
   <project path="prebuilts/prebuiltapks" name="MSe1969/android_prebuilts_prebuiltapks" revision="master" />
 
-  <!-- Bromite SystemWebView & Browser prebuilt-->
+  <!-- Mulch webview -->
+  <project name="divested-mobile/mulch" path="external/Mulch" remote="Gitlab" revision="master" />
+
+  <!-- Bromite Browser prebuilt-->
   <project path="external/Bromite" name="MSe1969/android_external_Bromite" remote="Gitlab" revision="master" />
-  <project path="external/bromite-webview" name="MSe1969/android_external_bromite-webview" revision="master" />
-  <project path="external/bromite-webview/prebuilt/x86_64" name="MSe1969/android_external_bromite-webview-x86_64" remote="Gitlab" revision="master" />
 
   <!-- AuroraStore prebuilt-->
   <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" />
