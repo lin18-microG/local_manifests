@@ -15,9 +15,6 @@
   <!-- Mulch webview -->
   <project name="divested-mobile/mulch" path="external/Mulch" remote="Gitlab" revision="master" />
 
-  <!-- Bromite Browser prebuilt-->
-  <project path="external/Bromite" name="MSe1969/android_external_Bromite" remote="Gitlab" revision="master" />
-
   <!-- AuroraStore prebuilt-->
   <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" />
 
@@ -64,6 +61,8 @@
   <project path="packages/apps/Camera2" name="lin18-microG/android_packages_apps_Camera2" groups="pdk-fs" />
   <remove-project name="LineageOS/android_packages_apps_Contacts" />
   <project path="packages/apps/Contacts" name="lin18-microG/android_packages_apps_Contacts" groups="pdk-fs" />
+  <remove-project name="LineageOS/android_packages_apps_Jelly" />
+  <project path="packages/apps/Jelly" name="lin18-microG/android_packages_apps_Jelly" />
   <remove-project name="LineageOS/android_packages_apps_LineageParts" />
   <project path="packages/apps/LineageParts" name="lin18-microG/android_packages_apps_LineageParts" />
   <remove-project name="LineageOS/android_packages_apps_Nfc" />
