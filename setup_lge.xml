@@ -4,6 +4,7 @@
   <project name="LineageOS/android_device_lge_g5-common" path="device/lge/g5-common" remote="github" />
   <project name="LineageOS/android_device_lge_msm8996-common" path="device/lge/msm8996-common" remote="github" />
   <project name="LineageOS/android_device_lge_common" path="device/lge/common" remote="github" />
+  <project name="LineageOS/android_hardware_lge" path="hardware/lge" remote="github" />
   <project name="LineageOS/android_kernel_lge_msm8996" path="kernel/lge/msm8996" remote="github" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" />
 
