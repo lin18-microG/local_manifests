@@ -73,6 +73,8 @@
   <project path="packages/apps/Trebuchet" name="lin18-microG/android_packages_apps_Trebuchet" revision="lin-18.1-microG" />
   <remove-project name="platform/packages/modules/NetworkStack" />
   <project path="packages/modules/NetworkStack" name="lin18-microG/android_packages_modules_NetworkStack" groups="pdk-cw-fs,pdk-fs" revision="lin-18.1-microG" />
+  <remove-project name="LineageOS/android_system_ca-certificates" />
+  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" revision="lineage-19.1" groups="pdk" />
   <remove-project name="LineageOS/android_system_core" />
   <project path="system/core" name="lin18-microG/android_system_core" groups="pdk" revision="lin-18.1-hmalloc" />
   <remove-project name="LineageOS/android_system_sepolicy" />
