@@ -1,0 +1,12 @@
+<?xmnl version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Replace Lineage repos with own forks, due to not merged CVE from LOS gerrit -->
+    <remove-project name="LineageOS/android_frameworks_av" />
+    <remove-project name="LineageOS/android_system_bt" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+
+    <project path="frameworks/av" name="lin18-microg/android_frameworks_av" groups="pdk" />
+    <project path="system/bt" name="lin18-microG/android_system_bt" groups="pdk" />
+    <project path="vendor/qcom/opensource/commonsys/system/bt" 
+             name="lin18-microG/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" />
+</manifest>
