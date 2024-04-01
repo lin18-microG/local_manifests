@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="github" revision="lineage-18.1" />
+  <project name="LineageOS/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github" revision="lineage-18.1" />
+
+  <project name="lin18-microG/android_device_samsung_gts210ltexx" path="device/samsung/gts210ltexx" remote="github" revision="lineage-18.1" />
+  <project name="lin18-microG/android_device_samsung_gts2-common-selinux" path="device/samsung/gts2-common" remote="github" revision="lineage-18.1" />
+  <project name="lin18-microG/android_kernel_samsung_universal5433" path="kernel/samsung/universal5433" remote="github" revision="lineage-18.1" />
+  <project name="lin18-microG/android_hardware_samsung_slsi_exynos5433" path="hardware/samsung_slsi/exynos5433" remote="github" revision="lineage-18.1" />
+  <project name="lin18-microG/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-18.1" />
+</manifest>
