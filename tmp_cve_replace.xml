@@ -7,12 +7,14 @@
     <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
 
     <remove-project name="platform/external/sonivox" />
+    <remove-project name="platform/system/libfmq" />
 
     <project path="external/sonivox" name="lin18-microG/android_external_sonivox" groups="pdk" />
     <project path="frameworks/av" name="lin18-microG/android_frameworks_av" groups="pdk" />
     <project path="packages/providers/MediaProvider" groups="pdk-cw-fs,pdk-fs"
              name="lin18-microG/android_packages_providers_MediaProvider" />
     <project path="system/bt" name="lin18-microG/android_system_bt" groups="pdk" />
+    <project path="system/libfmq" name="lin18-microG/android_system_libfmq" groups="pdk" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" 
              name="lin18-microG/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" />
 </manifest>
