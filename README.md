@@ -5,7 +5,7 @@ The [LineageOS build instructions (example: hotdog device)](https://wiki.lineage
 ## Initialize the build tree
 Create the directory, which should contain your build tree and 'cd' into it.
 ```Shell session
-repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --groups=all,-notdefault,-darwin,-mips
+repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --groups=all,-notdefault,-darwin,-mips --git-lfs
 ```
 
 ## Decide, what you want to do
