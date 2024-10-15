@@ -7,6 +7,7 @@
     <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
     <remove-project name="LineageOS/android_packages_providers_MediaProvider" />
     <remove-project name="LineageOS/android_packages_services_Telecomm" />
+    <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
 
     <remove-project name="platform/external/sonivox" />
     <remove-project name="platform/system/libfmq" />
@@ -20,6 +21,8 @@
              name="lin18-microG/android_packages_services_Telecomm" />
     <project path="system/bt" name="lin18-microG/android_system_bt" groups="pdk" />
     <project path="system/libfmq" name="lin18-microG/android_system_libfmq" groups="pdk" />
+    <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth"
+             name="lin18-microG/android_vendor_qcom_opensource_packages_apps_Bluetooth" groups="qcom,pdk-qcom" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" 
              name="lin18-microG/android_vendor_qcom_opensource_system_bt" groups="qcom,pdk-qcom" />
 </manifest>
