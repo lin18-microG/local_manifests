@@ -2,6 +2,7 @@
 <manifest>
 
   <remote name="Gitlab" fetch="https://gitlab.com" />
+  <remote name="Codeberg" fetch="https://codeberg.org" />
 
   <!-- Static OTA updater resource -->
   <project path="OTA" name="lin18-microG/OTA" revision="lin-18.1-microG" />
@@ -13,7 +14,7 @@
   <project path="prebuilts/prebuiltapks" name="MSe1969/android_prebuilts_prebuiltapks" revision="master" />
 
   <!-- AOSmium Webview -->
-  <project path="external/AOSmium-prebuilt" name="MSe1969/AOSmium-prebuilt" revision="main" />
+  <project path="external/AOSmium-prebuilt" name="MSe1969/AOSmium-prebuilt" revision="main" remote="Codeberg" />
 
   <!-- AuroraStore prebuilt-->
   <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" />
