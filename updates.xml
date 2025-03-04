@@ -8,16 +8,17 @@
   <project path="external/hardened_malloc" name="lin18-microG/hardened_malloc" revision="main" />
 
   <!-- microG Build, prebuilt apks -->
-  <project path="prebuilts/prebuiltapks" name="MSe1969/android_prebuilts_prebuiltapks" revision="master" />
+  <project path="prebuilts/prebuiltapks" name="MSe1969/android_prebuilts_prebuiltapks" revision="master" remote="codeberg" />
 
   <!-- AOSmium Webview -->
   <project path="external/AOSmium-prebuilt" name="MSe1969/AOSmium-prebuilt" revision="main" remote="codeberg" />
 
   <!-- AuroraStore prebuilt-->
-  <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" />
+  <project path="prebuilts/AuroraStore" name="MSe1969/AuroraStore-prebuilt" revision="master" remote="codeberg" />
 
   <!-- Captive Portal detection RROs -->
-  <project path="packages/overlays/CaptivePortal204" name="MSe1969/android_packages_overlays_CaptivePortal204" revision="master" />
+  <project path="packages/overlays/CaptivePortal204" name="MSe1969/android_packages_overlays_CaptivePortal204" 
+           revision="master" remote="codeberg" />
 
   <!-- Patches & root-scripts Directory -->
   <project path="z_patches" name="lin18-microG/z_patches" />
@@ -81,4 +82,3 @@
   <project path="vendor/lineage" name="lin18-microG/android_vendor_lineage" />
 
 </manifest>
-
