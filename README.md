@@ -1,3 +1,5 @@
+**This organization has been migrated to codeberg.org - please look here: https://codeberg.org/lin18-microG**
+
 # How to build
 General assumption is, that you are familiar with building ROMs and how to use git etc.
 The [LineageOS build instructions (example: hotdog device)](https://wiki.lineageos.org/devices/hotdog/build) should provide you with needed additional informations.
