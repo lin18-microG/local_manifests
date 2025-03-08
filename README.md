@@ -12,11 +12,11 @@ repo init -u https://github.com/LineageOS/android.git -b lineage-18.1 --groups=a
 The main purpose of this organization is to build the "hardened microG" variants for below listed devices:
 - Sony Xperia Z1 compact (amami) [XDA Thread amami](https://forum.xda-developers.com/t/rom-unofficial-11-0-signed-ota-lineage-os-18-1-for-xperia-z1-compact.4199113/)
 - OnePlus 3T (oneplus3) [XDA Thread oneplus3](https://forum.xda-developers.com/t/rom-unofficial-11-0-microg-signed-hardened-lineageos-18-1-oneplus-3-3t.4347693/)
-- OnePlus 7T Pro (hotdog) [XDA Thread hotdog](https://forum.xda-developers.com/t/rom-unofficial-11-0-microg-signed-hardened-lineageos-18-1-oneplus-7t-pro.4335053/)
+- Samsung GalaxyTab S2 LTE 9.7 [XDA Thread gts210ltexx](https://xdaforums.com/t/rom-unofficial-11-0-microg-signed-hardened-lineageos-18-1-samsung-tab-s2-lte-9-7.4668606/)
+- <strike>OnePlus 7T Pro (hotdog) [XDA Thread hotdog](https://forum.xda-developers.com/t/rom-unofficial-11-0-microg-signed-hardened-lineageos-18-1-oneplus-7t-pro.4335053/)</strike>
 - LG G5 international (h850) - no XDA thread
 
-With the exception of the amami device, all other listed devices are officially supported by LineageOS, so if you are not interested in the "hardened microG" 
-build variant for any other of above devices than the amami, you should simply stick to the official LineageOS builds and build instructions. 
+With the exception of the amami device, all other listed devices are officially supported by LineageOS, so if you are not interested in the "hardened microG" build variant for any other of above devices than the amami, you should simply stick to the official LineageOS builds and build instructions. 
 
 So you have two options:
 1. You simply would like to build the "default LineageOS 18.1" for the amami device
@@ -25,8 +25,8 @@ So you have two options:
 ## Option 1 - build standard LineageOS 18.1 for the amami device
 Continue as outlined below after having initialized the build tree
 ```Shell session
-curl https://raw.githubusercontent.com/lin18-microG/local_manifests/lineage-18.1/setup_common.xml > .repo/local_manifests/setup_common.xml
-curl https://raw.githubusercontent.com/lin18-microG/local_manifests/lineage-18.1/setup_sony.xml > .repo/local_manifests/setup_sony.xml
+curl https://codeberg.org/lin18-microG/local_manifests/raw/branch/lineage-18.1/setup_common.xml > .repo/local_manifests/setup_common.xml
+curl https://codeberg.org/lin18-microG/local_manifests/raw/branch/lineage-18.1/setup_sony.xml > .repo/local_manifests/setup_sony.xml
 repo sync --no-tags
 ```
 After the tree has been synch'ed, enter the below commands to build LineageOS 18.1 for the amami device:
@@ -44,7 +44,7 @@ To do so, the local_manifests directory needs to be updated accordingly (I am no
 ### Step 1 - Basic tree synchronization
 ```Shell session
 cd .repo
-git clone https://github.com/lin18-microG/local_manifests 
+git clone https://codeberg.org/lin18-microG/local_manifests 
 cd local_manifests 
 git checkout lineage-18.1
 cd ../.. 
